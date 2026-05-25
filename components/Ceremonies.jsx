@@ -565,7 +565,7 @@ function ParallaxBg({ image, accent }) {
       />
 
       {/* ── Overlay stack (unchanged from original) ── */}
-      <div className="absolute inset-0 bg-[rgba(8,3,0,0.60)]" />
+      <div className="absolute inset-0 bg-[rgba(8,3,0,0.70)]" />
       <div
         className="absolute inset-0"
         style={{ background: 'linear-gradient(180deg,rgba(4,1,0,0.75) 0%,rgba(10,4,0,0.32) 40%,rgba(10,4,0,0.32) 60%,rgba(4,1,0,0.82) 100%)' }}
