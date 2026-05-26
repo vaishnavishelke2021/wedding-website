@@ -289,3 +289,12 @@ a:hover {
 @media (max-width: 640px) {
   .curtain { width: 55%; }
 }
+
+        .gold-shimmer-text {
+          background: linear-gradient(90deg, #d4af37 0%, #ffeaa7 30%, #f1c40f 50%, #ffeaa7 70%, #d4af37 100%);
+          background-size: 200% auto;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          animation: textShimmer 6s linear infinite;
+        }

@@ -162,7 +162,7 @@ export default function Entry() {
             <div style={{
         position: 'absolute', inset: 0,
         opacity: phase === 'revealed' ? 1 : 0,
-        transition: 'opacity 1.2s ease 0.3s',
+        transition: 'opacity 1s ease 0.3s',
         pointerEvents: phase === 'revealed' ? 'auto' : 'none',
       }}>
         <Hero />
@@ -195,7 +195,7 @@ export default function Entry() {
             initial={{ x: '0%' }}
             animate={{ x: phase === 'opening' ? '-105%' : '0%' }}
             exit={{ x: '-105%' }}
-            transition={{ duration: 1.8, ease: [0.76, 0, 0.24, 1] }}
+            transition={{ duration: 1.4, ease: [0.76, 0, 0.24, 1] }}
             style={{
               position: 'absolute', top: 0, bottom: 0, left: 0,
               width: '52%', zIndex: 50, overflow: 'hidden',
@@ -236,7 +236,7 @@ export default function Entry() {
             initial={{ x: '0%' }}
             animate={{ x: phase === 'opening' ? '105%' : '0%' }}
             exit={{ x: '105%' }}
-            transition={{ duration: 1.8, ease: [0.76, 0, 0.24, 1] }}
+            transition={{ duration: 1.4, ease: [0.76, 0, 0.24, 1] }}
             style={{
               position: 'absolute', top: 0, bottom: 0, right: 0,
               width: '52%', zIndex: 50, overflow: 'hidden',
