@@ -9,7 +9,7 @@
 //   {
 //     id: 'engagement', num: '01', badge: 'First Ceremony',
 //     title: 'Engagement', accent: '#351A22', layout: 'left',
-//     bgImage: '/images/c11.jpg',
+//     bgImage: '/images/c11.webp',
 //     description: 'Together with our families, we joyfully invite you to witness as Abhinav and Aalekhya exchange rings and begin their journey into forever.',
 //     mapsUrl: 'https://www.google.com/maps/place/CA+Convention/@16.5611958,80.5603703,17z/data=!3m1!4b1!4m6!3m5!1s0x3a35effa332edec1:0xfda8cea9e58e8f10!8m2!3d16.5611958!4d80.5603703!16s%2Fg%2F11pbj2h12q!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D',
 //     info: [
@@ -23,7 +23,7 @@
 //   {
 //     id: 'haldi', num: '02', badge: 'Pre-Wedding Festivities',
 //     title: 'Haldi', accent: '#704d06', layout: 'right',
-//     bgImage: '/images/c21.jpg',
+//     bgImage: '/images/c21.webp',
 //     description: 'A beautiful splash of yellow! Join us for a lively gathering filled with love, laughter, and traditional turmeric blessings.',
 //     mapsUrl: 'https://www.google.com/maps/search/Vijayawada+Andhra+Pradesh',
 //     info: [
@@ -37,7 +37,7 @@
 //   {
 //     id: 'sangeet', num: '03', badge: 'Celebration of Music & Dance',
 //     title: 'Sangeet', accent: '#2E423B', layout: 'left',
-//     bgImage: '/images/c31.jpg',
+//     bgImage: '/images/c31.webp',
 //     description: 'An evening of music, rhythm, and celebration! Put on your dancing shoes and join us for a spectacular night of performances.',
 //     mapsUrl: 'https://maps.google.com/?q=CK+Convention+Vijayawada',
 //     info: [
@@ -51,7 +51,7 @@
 //   {
 //     id: 'pellikuthuru', num: '04', badge: 'Bridal Making Ceremony',
 //     title: 'Pellikuthuru', accent: '#593c09', layout: 'right',
-//     bgImage: '/images/c41.jpg',
+//     bgImage: '/images/c41.webp',
 //     description: 'In accordance with timeless traditions, we welcome auspicious blessings as Aalekhya is lovingly prepared for her wedding day.',
 //     mapsUrl: 'https://www.google.com/maps/search/Vijayawada+Andhra+Pradesh',
 //     info: [
@@ -65,7 +65,7 @@
 //   {
 //     id: 'pellikoduku', num: '05', badge: 'Groom Making Ceremony',
 //     title: 'Pellikoduku', accent: '#6d3410', layout: 'left',
-//     bgImage: '/images/c51.jpg',
+//     bgImage: '/images/c51.webp',
 //     description: 'Celebrating the sacred beginning of the nuptials as Abhinav is anointed with traditional values, ready to step into his new path.',
 //     mapsUrl: 'https://maps.google.com/?q=Gudapadu',
 //     info: [
@@ -79,7 +79,7 @@
 //   {
 //     id: 'wedding', num: '06', badge: 'The Muhurtham',
 //     title: 'Wedding', accent: '#685a4d', layout: 'right', isWedding: true,
-//     bgImage: '/images/c61.jpg',
+//     bgImage: '/images/c61.webp',
 //     description: 'The auspicious moment of lifetime union. Witness our sacred vows, the exchange of garlands, and our steps into a shared tomorrow.',
 //     mapsUrl: 'https://maps.google.com/?q=Dwaraka+Tirumala',
 //     info: [
@@ -93,7 +93,7 @@
 //   {
 //     id: 'vratham', num: '07', badge: 'Auspicious Thanksgiving',
 //     title: 'Vratham', accent: '#541a1e', layout: 'left',
-//     bgImage: '/images/c71.jpg',
+//     bgImage: '/images/c71.webp',
 //     description: 'To invoke peace, prosperity, and divine harmony into our new life together, we welcome you to join our pristine morning prayer.',
 //     mapsUrl: 'https://maps.google.com/?q=Gudapadu',
 //     info: [
@@ -107,7 +107,7 @@
 //   {
 //     id: 'reception', num: '08', badge: 'Grand Homecoming Gala',
 //     title: 'Reception', accent: '#5b4b29', layout: 'right',
-//     bgImage: '/images/c81.jpg',
+//     bgImage: '/images/c81.webp',
 //     description: 'Let us celebrate the start of our beautiful journey! Join us for a majestic evening of dinner, greetings, and heartfelt cheers.',
 //     mapsUrl: 'https://maps.google.com/?q=CK+Convention+Vijayawada',
 //     info: [
@@ -431,7 +431,7 @@ const CEREMONIES = [
   {
     id: 'engagement', num: '01', badge: 'First Ceremony',
     title: 'Engagement', accent: '#351A22', layout: 'left',
-    bgImage: '/images/c11.jpg',
+    bgImage: '/images/c11.webp',
     description: 'Together with our families, we joyfully invite you to witness as Abhinav and Aalekhya exchange rings and begin their journey into forever.',
     mapsUrl: 'https://www.google.com/maps/place/CA+Convention/@16.5611958,80.5603703,17z',
     info: [
@@ -445,7 +445,7 @@ const CEREMONIES = [
   {
     id: 'haldi', num: '02', badge: 'Pre-Wedding Festivities',
     title: 'Haldi', accent: '#704d06', layout: 'right',
-    bgImage: '/images/c21.jpg',
+    bgImage: '/images/c21.webp',
     description: 'A beautiful splash of yellow! Join us for a lively gathering filled with love, laughter, and traditional turmeric blessings.',
     mapsUrl: 'https://www.google.com/maps/search/Vijayawada+Andhra+Pradesh',
     info: [
@@ -459,7 +459,7 @@ const CEREMONIES = [
   {
     id: 'sangeet', num: '03', badge: 'Celebration of Music & Dance',
     title: 'Sangeet', accent: '#2E423B', layout: 'left',
-    bgImage: '/images/c31.jpg',
+    bgImage: '/images/c31.webp',
     description: 'An evening of music, rhythm, and celebration! Put on your dancing shoes and join us for a spectacular night of performances.',
     mapsUrl: 'https://maps.google.com/?q=CK+Convention+Vijayawada',
     info: [
@@ -473,7 +473,7 @@ const CEREMONIES = [
   {
     id: 'pellikuthuru', num: '04', badge: 'Bridal Making Ceremony',
     title: 'Pellikuthuru', accent: '#593c09', layout: 'right',
-    bgImage: '/images/c41.jpg',
+    bgImage: '/images/c41.webp',
     description: 'In accordance with timeless traditions, we welcome auspicious blessings as Aalekhya is lovingly prepared for her wedding day.',
     mapsUrl: 'https://www.google.com/maps/search/Vijayawada+Andhra+Pradesh',
     info: [
@@ -487,7 +487,7 @@ const CEREMONIES = [
   {
     id: 'pellikoduku', num: '05', badge: 'Groom Making Ceremony',
     title: 'Pellikoduku', accent: '#6d3410', layout: 'left',
-    bgImage: '/images/c51.jpg',
+    bgImage: '/images/c51.webp',
     description: 'Celebrating the sacred beginning of the nuptials as Abhinav is anointed with traditional values, ready to step into his new path.',
     mapsUrl: 'https://maps.google.com/?q=Gudapadu',
     info: [
@@ -501,7 +501,7 @@ const CEREMONIES = [
   {
     id: 'wedding', num: '06', badge: 'The Muhurtham',
     title: 'Wedding', accent: '#685a4d', layout: 'right', isWedding: true,
-    bgImage: '/images/c61.jpg',
+    bgImage: '/images/c61.webp',
     description: 'The auspicious moment of lifetime union. Witness our sacred vows, the exchange of garlands, and our steps into a shared tomorrow.',
     mapsUrl: 'https://maps.google.com/?q=Dwaraka+Tirumala',
     info: [
@@ -515,7 +515,7 @@ const CEREMONIES = [
   {
     id: 'vratham', num: '07', badge: 'Auspicious Thanksgiving',
     title: 'Vratham', accent: '#541a1e', layout: 'left',
-    bgImage: '/images/c71.jpg',
+    bgImage: '/images/c71.webp',
     description: 'To invoke peace, prosperity, and divine harmony into our new life together, we welcome you to join our pristine morning prayer.',
     mapsUrl: 'https://maps.google.com/?q=Gudapadu',
     info: [
@@ -529,7 +529,7 @@ const CEREMONIES = [
   {
     id: 'reception', num: '08', badge: 'Grand Homecoming Gala',
     title: 'Reception', accent: '#5b4b29', layout: 'right',
-    bgImage: '/images/c81.jpg',
+    bgImage: '/images/c81.webp',
     description: 'Let us celebrate the start of our beautiful journey! Join us for a majestic evening of dinner, greetings, and heartfelt cheers.',
     mapsUrl: 'https://maps.google.com/?q=CK+Convention+Vijayawada',
     info: [
@@ -550,19 +550,6 @@ const googleCalUrl = ({ title, description, location, startISO, endISO }) => {
 const OUTER_CLIP = 'polygon(50% 0%, 100% 6%, 100% 94%, 50% 100%, 0% 94%, 0% 6%)';
 const INNER_CLIP = 'polygon(50% 0%, 101% 5%, 101% 95%, 50% 101%, -1% 95%, -1% 5%)';
 
-/* ─────────────────────────────────────────────────────────────────────
-   CeremonySection
-   ─────────────────────────────────────────────────────────────────────
-   Scroll-driven reveal:
-     • The WRAPPER tracks [start end → end start] for bg parallax
-     • The section itself tracks [start 85% → start 30%] for the page-peel entrance
-       — rotateX: -18° → 0°  (top hinge: card peels flat as it enters viewport)
-       — scale:   0.92 → 1
-       — y:       30px → 0
-     • When scrolling OUT (exit), the section uses [start 0% → start -40%]
-       — scale:   1 → 0.94, opacity 1 → 0, slight Y pull up
-       so the old card "recedes" naturally as the new one peels in below it.
-   ──────────────────────────────────────────────────────────────────── */
 function CeremonySection({ ceremony }) {
   const wrapperRef = useRef(null);
   const sectionRef = useRef(null);
@@ -677,7 +664,7 @@ function CeremonySection({ ceremony }) {
                 className="m-0 my-4 leading-none"
                 style={{
                   fontFamily: "'Cormorant Garamond',Georgia,serif",
-                  fontSize: 'clamp(2.5rem,6vw,3.6rem)',
+                  fontSize: 'clamp(2.5rem,6vw,3.9rem)',
                   fontWeight: 100,
                   letterSpacing: '0.009em',
                   color: '#FFEAA6',
