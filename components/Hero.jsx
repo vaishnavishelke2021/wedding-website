@@ -97,13 +97,12 @@ export default function Hero() {
         {/* ── MINIMAL TOP GARLAND LINE ── */}
         <MinimalGarland />
 
-        {/* ── CLEAN TYPOGRAPHY MAIN BANNER ── */}
         <motion.div style={{ y: contentY }} className="relative z-10 text-center max-w-3xl mx-auto flex flex-col items-center drop-shadow-[0_2px_10px_rgba(0,0,0,0.6)]">
           
           {/* Couple Names */}
           <motion.p 
             {...fadeUp(0.1)} 
-            className=" gold-shimmer-text tracking-[0.025] leading-none m-0 text-[3rem] sm:text-[3.9rem] md:text-[4.3rem]"
+            className=" gold-shimmer-text tracking-[0.025] leading-none m-0 text-[3rem] sm:text-[3.9rem] md:text-[4.5rem]"
             style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
           >
             Abhinav{' '}
@@ -135,7 +134,7 @@ export default function Hero() {
           </motion.div>
 
           {/* Frameless Glass Event Details Card */}
-          <motion.div 
+          {/* <motion.div 
             {...fadeIn(0.45)} 
             className="grid grid-cols-1 sm:grid-cols-3 items-center justify-center bg-black/35 backdrop-blur-sm rounded-sm w-full mb-10 border border-white/5 py-4 px-2"
           >
@@ -165,7 +164,7 @@ export default function Hero() {
                 </p>
               </div>
             ))}
-          </motion.div>
+          </motion.div> */}
 
           {/* Countdown Clock Module */}
           <WeddingTimer />

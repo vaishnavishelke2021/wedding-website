@@ -283,7 +283,7 @@ a:hover {
 .enter-btn:hover {
   background: rgba(201,169,110,0.08);
   border-color: rgba(201,169,110,0.7);
-  color: #f0d080;
+  color: #0251635d;
 }
 
 @media (max-width: 640px) {
