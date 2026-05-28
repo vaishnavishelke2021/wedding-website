@@ -61,7 +61,7 @@ export default function AudioPlayer() {
   return (
     <>
       {/* Native audio element */}
-      <audio ref={audioRef} src="/wedding-song.mp3" loop />
+      <audio ref={audioRef} src="/Vachindamma.mp3" loop />
 
       {/* Fixed Speaker Icon Button */}
       <button
