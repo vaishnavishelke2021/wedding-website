@@ -86,11 +86,11 @@ export default function Hero() {
         {/* ── HIGH VISIBILITY TEMPLE BACKGROUND LAYER ── */}
         <motion.div style={{ y: bgY }} className="absolute inset-[-1%_0_-1%_0] z-0">
           <div 
-            className="absolute inset-0 scale-[1.2] bg-cover bg-center no-repeat opacity-65 brightness-[0.75] contrast-[1.05]"
+            className="absolute inset-0 scale-[1.2] bg-cover bg-center no-repeat opacity-85 brightness-[0.75] contrast-[1.05]"
             style={{ backgroundImage: "url('/images/bg1.png')", backgroundPosition: 'center 40%' }}
           />
           {/* Subtle translucent night gradient to protect readability without washing out the template */}
-          <div className="absolute inset-0 scale-[1.2] bg-gradient-to-b from-[#120905]/60 via-[#1a1126]/30 to-[#120905]/45" />
+          <div className="absolute inset-0 scale-[1.2] bg-gradient-to-b from-[#120905]/20 via-[#1a1126]/30 to-[#120905]/15" />
           <div className="absolute inset-0 scale-[1.2] bg-[radial-gradient(circle_at_20%_110%,transparent_10%,#120905_180%)]" />
         </motion.div>
         
@@ -102,7 +102,7 @@ export default function Hero() {
           {/* Couple Names */}
           <motion.p 
             {...fadeUp(0.1)} 
-            className=" gold-shimmer-text tracking-[0.025] leading-none m-0 text-[3rem] sm:text-[3.9rem] md:text-[4.5rem]"
+            className=" gold-shimmer-text tracking-[0.025] leading-none m-0 text-[3rem] sm:text-[3.9rem] md:text-[4.6rem] font-medium"
             style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
           >
             Abhinav{' '}
@@ -113,14 +113,14 @@ export default function Hero() {
           {/* Invitation Text */}
           <motion.div {...fadeUp(0.25)} className="mt-6 mb-8 space-y-1">
             <p 
-              className="font-light italic text-[#f3e3dc] tracking-[0.15em] text-sm md:text-base m-0 opacity-95"
-              style={{ fontFamily: "'Cormorant Garamond', serif" }}
+              className="font-normal italic text-white tracking-[0.12em] text-sm md:text-[1.2rem] m-0 opacity-95"
+              style={{ fontFamily: "'Cormorant Garamond', serif", textShadow: '0 1px 5px rgba(0,0,0,0.75)' }}
             >
               Together with their families
             </p>
             <p 
-              className="font-light italic text-[#f3e3dc] tracking-[0.15em] text-sm md:text-base m-0 opacity-95"
-              style={{ fontFamily: "'Cormorant Garamond', serif" }}
+              className="font-normal italic text-white tracking-[0.12em] text-sm md:text-[1.2rem] m-0 opacity-95"
+              style={{ fontFamily: "'Cormorant Garamond', serif", textShadow: '0 1px 5px rgba(0,0,0,0.75)' }}
             >
               request the honour of your presence
             </p>

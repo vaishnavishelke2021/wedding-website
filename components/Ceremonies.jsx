@@ -622,8 +622,8 @@ function CeremonySection({ ceremony }) {
               animation: 'breatheCer 20s ease-in-out infinite',
             }}
           />
-          <div className="absolute inset-0 bg-[rgba(5,2,0,0.30)]" />
-          <div className="absolute inset-0" style={{ background: 'linear-gradient(180deg,rgba(3,1,0,0.50) 10%,rgba(6,2,0,0.50) 30%,rgba(6,2,0,0.36) 70%,rgba(3,1,0,0.35) 100%)' }} />
+          <div className="absolute inset-0 bg-[rgba(5,2,0,0.20)]" />
+          <div className="absolute inset-0" style={{ background: 'linear-gradient(180deg,rgba(3,1,0,0.40) 10%,rgba(6,2,0,0.40) 30%,rgba(6,2,0,0.30) 70%,rgba(3,1,0,0.25) 100%)' }} />
           <div className="absolute inset-0" style={{ background: `radial-gradient(ellipse 70% 55% at 50% 52%, ${ceremony.accent}16 0%, transparent 65%)` }} />
         </div>
 
@@ -664,8 +664,8 @@ function CeremonySection({ ceremony }) {
                 className="m-0 my-4 leading-none"
                 style={{
                   fontFamily: "'Cormorant Garamond',Georgia,serif",
-                  fontSize: 'clamp(2.5rem,6vw,3.9rem)',
-                  fontWeight: 100,
+                  fontSize: 'clamp(2.5rem,6vw,4.2rem)',
+                  fontWeight: 200,
                   letterSpacing: '0.009em',
                   color: '#FFEAA6',
                   opacity: 0.9,
@@ -675,15 +675,15 @@ function CeremonySection({ ceremony }) {
                 {ceremony.title}
               </p>
 
-              <div className="mb-4" style={{ height: '0.5px', width: 56, background: `linear-gradient(90deg,${ceremony.accent},transparent)` }} />
+              <div className="mb-4" style={{ height: '0.8px', width: 100, background: `linear-gradient(90deg,${ceremony.accent},transparent)` }} />
 
               <p
                 className="m-0 leading-[1.75]"
                 style={{
                   fontFamily: "'Cormorant Garamond',serif",
-                  fontSize: '1.2rem', fontWeight: 300, fontStyle: 'italic',
-                  color: 'rgba(255,248,230,0.87)', letterSpacing: '0.03em',
-                  textShadow: '0 1px 5px rgba(0,0,0,0.55)',
+                  fontSize: '1.4rem', fontWeight: 400, fontStyle: 'italic',
+                  color: 'white', letterSpacing: '0.03em',
+                  textShadow: '0 1px 5px rgba(0,0,0,0.75)',
                 }}
               >
                 {ceremony.description}
@@ -701,8 +701,8 @@ function CeremonySection({ ceremony }) {
                 style={{
                   clipPath: OUTER_CLIP,
                   padding: 2,
-                  background: `linear-gradient(160deg,rgba(255,234,166,0.06) 100%,${ceremony.accent}87,${ceremony.accent}87)`,
-                  filter: `drop-shadow(0 20px 55px rgba(0,0,0,0.5)) drop-shadow(0 0 18px ${ceremony.accent}82)`,
+                  background: `linear-gradient(160deg,rgba(255,234,166,0.09) 100%,${ceremony.accent}87,${ceremony.accent}87)`,
+                  filter: `drop-shadow(0 20px 55px rgba(0,0,0,0.1)) drop-shadow(0 0 8px ${ceremony.accent}99)`,
                   backdropFilter: 'blur(10px)',
                   WebkitBackdropFilter: 'blur(10px)',
                 }}
@@ -711,7 +711,7 @@ function CeremonySection({ ceremony }) {
                   style={{
                     clipPath: INNER_CLIP,
                     padding: isWedding ? '3.2rem 2.8rem' : '2.6rem 2.4rem',
-                    background: `linear-gradient(155deg,${ceremony.accent}97,rgba(12,4,0,0.72) 90%,rgba(18,7,1,0.7) 100%)`,
+                    background: `linear-gradient(155deg,${ceremony.accent}97,rgba(12,4,0,0.52) 90%,rgba(18,7,1,0.5) 100%)`,
                     backdropFilter: 'blur(10px)',
                     WebkitBackdropFilter: 'blur(10px)',
                     position: 'relative',
@@ -740,10 +740,10 @@ function CeremonySection({ ceremony }) {
                           borderBottom: `0.5px solid ${ceremony.accent}20`,
                         }}
                       >
-                        <span style={{ fontFamily:"'Jost',sans-serif", fontWeight:300, fontSize:'0.6rem', letterSpacing:'0.36em', textTransform:'uppercase', color:'rgba(255,255,255,0.52)' }}>
+                        <span style={{ fontFamily:"'Jost',sans-serif", fontWeight:300, fontSize:'0.7rem', letterSpacing:'0.36em', textTransform:'uppercase', color:'rgba(255,255,255,0.52)' }}>
                           {label}
                         </span>
-                        <span style={{ fontFamily:"'Cormorant Garamond',serif", fontSize:'1.05rem', fontWeight:300, color:'rgba(255,248,228,0.95)', letterSpacing:'0.02em', textShadow:'0 1px 4px rgba(0,0,0,0.4)' }}>
+                        <span style={{  fontSize:'0.95rem', fontWeight:300, color:'rgba(255,248,228,0.90)', letterSpacing:'0.02em', textShadow:'0 1px 4px rgba(0,0,0,0.4)' }}>
                           {value}
                         </span>
                       </motion.div>
@@ -762,7 +762,7 @@ function CeremonySection({ ceremony }) {
                       href={googleCalUrl(ceremony.eventCal)}
                       target="_blank" rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2 no-underline transition-all duration-300"
-                      style={{ fontFamily:"'Jost',sans-serif", fontWeight:200, fontSize:'0.52rem', letterSpacing:'0.3em', textTransform:'uppercase', padding:'0.85rem 0.8rem', background:`${ceremony.accent}90`, color:'rgba(255,245,210,0.95)', border:`0.5px solid ${ceremony.accent}66` }}
+                      style={{ fontFamily:"'Jost',sans-serif", fontWeight:300, fontSize:'0.60rem', letterSpacing:'0.25em', textTransform:'uppercase', padding:'0.85rem 0.8rem', background:`${ceremony.accent}80`, color:'white', border:`0.5px solid ${ceremony.accent}` }}
                       onMouseEnter={e => { e.currentTarget.style.background = `${ceremony.accent}44`; }}
                       onMouseLeave={e => { e.currentTarget.style.background = `${ceremony.accent}28`; }}
                     >
@@ -773,7 +773,7 @@ function CeremonySection({ ceremony }) {
                       href={ceremony.mapsUrl}
                       target="_blank" rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2 no-underline transition-all duration-300"
-                      style={{ fontFamily:"'Jost',sans-serif", fontWeight:200, fontSize:'0.52rem', letterSpacing:'0.3em', textTransform:'uppercase', padding:'0.85rem 0.8rem', background:'rgba(255,248,228,0.06)', color:'rgba(255,245,218,0.72)', border:`0.5px solid ${ceremony.accent}28` }}
+                      style={{ fontFamily:"'Jost',sans-serif", fontWeight:300, fontSize:'0.60rem', letterSpacing:'0.25em', textTransform:'uppercase', padding:'0.85rem 0.8rem', background:'rgba(255,248,228,0.1)', color:'white', border:`0.5px solid ${ceremony.accent}28` }}
                       onMouseEnter={e => { e.currentTarget.style.background = 'rgba(255,248,228,0.12)'; e.currentTarget.style.color = 'rgba(255,248,228,0.96)'; }}
                       onMouseLeave={e => { e.currentTarget.style.background = 'rgba(255,248,228,0.06)'; e.currentTarget.style.color = 'rgba(255,245,218,0.72)'; }}
                     >
