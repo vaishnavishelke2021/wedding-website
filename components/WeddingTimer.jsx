@@ -54,7 +54,7 @@ export default function WeddingTimer() {
     >
       {/* 4-Column Time Grid */}
       <div className="grid grid-cols-4 gap-2.5 sm:gap-4">
-        <Cell value={time.days}  label="Days"    pad={3}/>
+        <Cell value={time.days}  label="Days"    pad={2}/>
         <Cell value={time.hours} label="Hours"   pad={2}/>
         <Cell value={time.mins}  label="Minutes" pad={2}/>
         <Cell value={time.secs}  label="Seconds" pad={2}/>

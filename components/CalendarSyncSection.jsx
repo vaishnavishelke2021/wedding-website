@@ -22,30 +22,30 @@ const CALENDAR_EVENTS = [
     end: '20260829T233000',
     location: 'CK Convention, Vijayawada',
   },
-  {
-    title: 'Pellikuthuru — Aalekhya',
-    start: '20260904T073000',
-    end: '20260904T113000',
-    location: 'Vijayawada, Andhra Pradesh',
-  },
-  {
-    title: 'Pellikoduku — Abhinav',
-    start: '20260904T073000',
-    end: '20260904T113000',
-    location: 'Gudapadu (60km from Vijayawada)',
-  },
+  // {
+  //   title: 'Pellikuthuru — Aalekhya',
+  //   start: '20260904T073000',
+  //   end: '20260904T113000',
+  //   location: 'Vijayawada, Andhra Pradesh',
+  // },
+  // {
+  //   title: 'Pellikoduku — Abhinav',
+  //   start: '20260904T073000',
+  //   end: '20260904T113000',
+  //   location: 'Gudapadu (60km from Vijayawada)',
+  // },
   {
     title: 'Wedding — Abhinav & Aalekhya',
     start: '20260904T190000',
     end: '20260905T020000',
     location: 'Dwaraka Tirumala (Chinna Tirupathi)',
   },
-  {
-    title: 'Vratham — Abhinav & Aalekhya',
-    start: '20260905T083000',
-    end: '20260905T123000',
-    location: 'Gudapadu, Andhra Pradesh, India',
-  },
+  // {
+  //   title: 'Vratham — Abhinav & Aalekhya',
+  //   start: '20260905T083000',
+  //   end: '20260905T123000',
+  //   location: 'Gudapadu, Andhra Pradesh, India',
+  // },
   {
     title: 'Reception',
     start: '20260906T183000',
@@ -174,7 +174,7 @@ export default function CalendarSyncSection() {
                   textShadow: '0 2px 10px rgba(0,0,0,1)'
                 }}
               >
-                Add all eight wedding ceremonies to your phone's calendar app in a single click and never miss a celebration.
+                Add all eight wedding ceremonies to your phone&apos;s calendar app in a single click and never miss a celebration.
               </p>
 
               {/* Single Global Action Button */}
@@ -197,13 +197,13 @@ export default function CalendarSyncSection() {
                   e.currentTarget.style.borderColor = `${accent}aa`;
                 }}
               >
-                <Download size={11} strokeWidth={1.5} className="transition-transform group-hover:translate-y-[-1px]" />
+                <Download size={11} strokeWidth={1.5} className="transition-transform group-hover:-translate-y-px" />
                 Add All Events to Calendar
               </button>
             </div>
 
             {/* ── Right Event List Itinerary ── */}
-            <div className="space-y-3.5 relative z-10 w-full max-h-[400px] overflow-y-auto pr-2 scrollbar-thin">
+            <div className="space-y-3.5 relative z-10 w-full max-h-100 overflow-y-auto pr-2 scrollbar-thin">
               {CALENDAR_EVENTS.map((event) => {
                 const shortTitle = event.title.split(' —')[0];
                 const shortLocation = event.location.split(' (')[0];
@@ -224,7 +224,7 @@ export default function CalendarSyncSection() {
                       {shortTitle}
                     </span>
                     <span 
-                      className="text-[0.72rem] tracking-wide uppercase font-normal text-right max-w-[220px] truncate"
+                      className="text-[0.72rem] tracking-wide uppercase font-normal text-right max-w-55 truncate"
                       style={{ 
                         fontFamily: "'Jost', sans-serif", 
                         color: accent,

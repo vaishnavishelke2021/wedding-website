@@ -29,6 +29,7 @@ import Ceremonies from '@/components/Ceremonies';
 import AudioPlayer from '@/components/AudioPlayer'; 
 import CalendarSyncSection from '@/components/CalendarSyncSection';
 import Footer from '@/components/Footer';
+import RSVP from '@/components/RSVP';
 
 export default function Home() {
   return (
@@ -38,6 +39,8 @@ export default function Home() {
         <Weddingnav />
         <Ceremonies />
         <CalendarSyncSection />
+        
+        <RSVP/>
         <Footer />
         
         {/* Floating audio  */}

@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { Calendar, MapPin, Clock } from 'lucide-react';
 import WeddingTimer from './WeddingTimer';
 
 /* ─── Animation Configs ─── */
@@ -40,7 +39,7 @@ const MinimalGarland = () => {
               </svg>
             )}
             {/* Micro Marigold Bead */}
-            <div className={`w-3.5 h-3.5 rounded-full ${isAlternate ? 'bg-gradient-to-r from-[#FF9F1C] to-[#E65F00]' : 'bg-gradient-to-r from-[#FFBF00] to-[#FF9F1C]'}`} />
+            <div className={`w-3.5 h-3.5 rounded-full ${isAlternate ? 'bg-linear-to-r from-[#FF9F1C] to-[#E65F00]' : 'bg-linear-to-r from-[#FFBF00] to-[#FF9F1C]'}`} />
           </div>
         );
       })}
@@ -90,7 +89,7 @@ export default function Hero() {
             style={{ backgroundImage: "url('/images/bg1.png')", backgroundPosition: 'center 40%' }}
           />
           {/* Subtle translucent night gradient to protect readability without washing out the template */}
-          <div className="absolute inset-0 scale-[1.2] bg-gradient-to-b from-[#120905]/20 via-[#1a1126]/30 to-[#120905]/15" />
+          <div className="absolute inset-0 scale-[1.2] bg-linear-to-b from-[#120905]/20 via-[#1a1126]/30 to-[#120905]/15" />
           <div className="absolute inset-0 scale-[1.2] bg-[radial-gradient(circle_at_20%_110%,transparent_10%,#120905_180%)]" />
         </motion.div>
         
@@ -128,45 +127,11 @@ export default function Hero() {
 
           {/* Clean Geometric Accent Line */}
           <motion.div {...fadeIn(0.35)} className="flex items-center justify-center gap-2 w-full mb-10">
-            <motion.div {...scaleIn(0.4)} className="w-12 h-[0.5px] bg-gradient-to-r from-transparent to-[#FFD700]/60" />
+            <motion.div {...scaleIn(0.4)} className="w-12 h-[0.5px] bg-linear-to-r from-transparent to-[#FFD700]/60" />
             <div className="w-1 h-1 bg-[#FFBF00] rotate-45 transform opacity-70" />
-            <motion.div {...scaleIn(0.4)} className="w-12 h-[0.5px] bg-gradient-to-r from-[#FFD700]/60 to-transparent" />
+            <motion.div {...scaleIn(0.4)} className="w-12 h-[0.5px] bg-linear-to-r from-[#FFD700]/60 to-transparent" />
           </motion.div>
 
-          {/* Frameless Glass Event Details Card */}
-          {/* <motion.div 
-            {...fadeIn(0.45)} 
-            className="grid grid-cols-1 sm:grid-cols-3 items-center justify-center bg-black/35 backdrop-blur-sm rounded-sm w-full mb-10 border border-white/5 py-4 px-2"
-          >
-            {[
-              { label: 'Wedding Date', value: '5 September 2026', icon: Calendar },
-              { label: 'The Venue', value: 'Dwaraka Tirumala, Andhra Pradesh', icon: MapPin },
-              { label: 'Auspicious Time', value: 'Evening · Midnight', icon: Clock },
-            ].map(({ label, value, icon: Icon }, i) => (
-              <div 
-                key={i} 
-                className={`py-2 px-4 flex flex-col items-center justify-center text-center ${
-                  i > 0 ? 'border-t sm:border-t-0 sm:border-l border-white/5' : ''
-                }`}
-              >
-                <Icon className="w-3.5 h-3.5 text-[#FFBF00]/80 mb-1.5" strokeWidth={1.5} />
-                <p 
-                  className="font-light text-[0.58rem] tracking-[0.2em] text-[#f3e3dc]/60 uppercase mb-0.5"
-                  style={{ fontFamily: "'Jost', sans-serif" }}
-                >
-                  {label}
-                </p>
-                <p 
-                  className="font-light text-[0.9rem] text-neutral-200 tracking-wide m-0"
-                  style={{ fontFamily: "'Cormorant Garamond', serif" }}
-                >
-                  {value}
-                </p>
-              </div>
-            ))}
-          </motion.div> */}
-
-          {/* Countdown Clock Module */}
           <WeddingTimer />
 
         </motion.div>

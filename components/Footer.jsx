@@ -48,7 +48,7 @@ export default function WeddingFooterFiligree() {
           
           {/* ── Couple Branding ── */}
           <h3 
-            className="font-light tracking-[0.06em] m-0 text-4xl sm:text-5xl mb-3"
+            className="font-light tracking-[0.06em] m-0 text-4xl sm:text-6xl mb-6"
             style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", color: "#110500", fontWeight: 400 }}
           >
             Abhinav & Aalekhya
@@ -61,7 +61,7 @@ export default function WeddingFooterFiligree() {
               className="text-[0.68rem] tracking-[0.4em] uppercase font-medium"
               style={{ fontFamily: "'Jost', sans-serif", color: darkTone }}
             >
-              September 5 · 2026
+              September 4 · 2026
             </span>
             <div className="w-8 h-[0.5px]" style={{ backgroundColor: `${darkTone}55` }} />
           </div>
@@ -76,7 +76,7 @@ export default function WeddingFooterFiligree() {
 
           {/* ── Visual Anchor Pinpoint Heart Filigree ── */}
           <div className="filigree-heart flex flex-col items-center gap-2">
-            <div className="w-[1px] h-8" style={{ background: `linear-gradient(180deg, ${darkTone}66, transparent)` }} />
+            <div className="w-px h-8" style={{ background: `linear-gradient(180deg, ${darkTone}66, transparent)` }} />
             <Heart size={15} strokeWidth={1} style={{ color: darkTone, fill: `${darkTone}11` }} />
           </div>
 

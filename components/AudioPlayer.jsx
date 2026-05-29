@@ -20,6 +20,7 @@ export default function AudioPlayer() {
         })
         .catch((err) => {
           console.log("Autoplay blocked. Waiting for user interaction.");
+          console.error("Playback failed:", err);
         });
     };
 

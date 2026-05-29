@@ -6,10 +6,7 @@ const ceremonies = [
   { id: 'engagement',   label: 'Engagement' },
   { id: 'haldi',        label: 'Haldi' },
   { id: 'sangeet',      label: 'Sangeet' },
-  { id: 'pellikuthuru', label: 'Pellikuthuru' },
-  { id: 'pellikoduku',  label: 'Pellikoduku' },
   { id: 'wedding',      label: 'Wedding' },
-  { id: 'vratham',      label: 'Vratham' },
   { id: 'reception',    label: 'Reception' },
 ];
 
@@ -55,14 +52,14 @@ export default function WeddingNav() {
         aria-label="Ceremony navigation"
       >
         {/* Fine gold top accent line */}
-        <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-[#FFD700]/50 to-transparent opacity-80" />
+        <div className="h-px w-full bg-linear-to-r from-transparent via-[#FFD700]/50 to-transparent opacity-80" />
         
         {/* Navbar Inner Tray */}
         <div className="flex items-center justify-between px-6 md:px-12 h-14 bg-[#120905]/80 backdrop-blur-md border-b border-white/5 shadow-2xl transition-colors duration-300">
           
           {/* Brand Logo */}
           <div 
-            className="text-neutral-100 text-lg font-light tracking-wide select-none whitespace-nowrap"
+            className="text-[#dbd2ba] text-lg font-light tracking-wide select-none whitespace-nowrap"
             style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
           >
             Abhinav <span className="text-[#FFD700] italic font-normal">&amp;</span> Aalekhya
@@ -99,9 +96,9 @@ export default function WeddingNav() {
             aria-label="Toggle menu"
             aria-expanded={menuOpen}
           >
-            <span className={`h-[1px] bg-neutral-200 transition-all duration-300 ease-out ${menuOpen ? 'w-6 rotate-45 translate-y-[7px]' : 'w-6'}`} />
-            <span className={`h-[1px] bg-neutral-200 transition-all duration-300 ease-out ${menuOpen ? 'w-0 opacity-0' : 'w-4'}`} />
-            <span className={`h-[1px] bg-neutral-200 transition-all duration-300 ease-out ${menuOpen ? 'w-6 -rotate-45 -translate-y-[7px]' : 'w-5'}`} />
+            <span className={`h-px bg-neutral-200 transition-all duration-300 ease-out ${menuOpen ? 'w-6 rotate-45 translate-y-1.75' : 'w-6'}`} />
+            <span className={`h-px bg-neutral-200 transition-all duration-300 ease-out ${menuOpen ? 'w-0 opacity-0' : 'w-4'}`} />
+            <span className={`h-px bg-neutral-200 transition-all duration-300 ease-out ${menuOpen ? 'w-6 -rotate-45 -translate-y-1.75' : 'w-5'}`} />
           </button>
         </div>
       </nav>
