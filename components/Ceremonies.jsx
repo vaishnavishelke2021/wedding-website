@@ -51,7 +51,7 @@ const CEREMONIES = [
   {
     id: 'wedding', num: '04', badge: 'The Muhurtham',
     title: 'Wedding', accent: '#916530', layout: 'right', isWedding: true,
-    bgImage: '/images/w1.png',
+    bgImage: '/images/w1.webp',
     description: 'The auspicious moment of lifetime union. Witness our sacred vows, the exchange of garlands, and our steps into a shared tomorrow.',
     mapsUrl: 'https://maps.google.com/?q=Dwaraka+Tirumala',
     info: [

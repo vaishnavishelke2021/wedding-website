@@ -19,7 +19,7 @@ function getTimeLeft() {
 const Cell = ({ value, label, pad = 2 }) => (
   <div className="relative bg-black/35 border border-white/5 backdrop-blur-sm pt-4 pb-3 px-2 text-center overflow-hidden rounded-sm">
     {/* Fine gold top accent line */}
-    <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-[#FFD700]/50 to-transparent" />
+    <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-[#FFD700]/50 to-transparent" />
     
     <span 
       className="text-neutral-100 font-light block leading-none tracking-wide text-2xl sm:text-3xl md:text-4xl"
